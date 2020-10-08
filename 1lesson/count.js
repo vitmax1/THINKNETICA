@@ -1,3 +1,4 @@
-function symWord(quant) {
-	return quant;
+function howMuch(word) {
+	return word.length;
 }
+
