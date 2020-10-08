@@ -1,4 +1,4 @@
-function howMuch(word) {
+function countHowMuch(word) {
 	return word.length;
 }
 
