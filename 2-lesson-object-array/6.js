@@ -3,5 +3,5 @@ const randomArr = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'prese
 
 const randomSort = randomArr.sort(function () {
 	return 0.5 - Math.random();
-}); //Теперь элементы перемешаны
+}); 
 console.log(randomSort);
