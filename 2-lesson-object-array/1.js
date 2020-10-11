@@ -1,7 +1,6 @@
 function isCapitalized(letter) {
 	for (let i = 0; i < letter.length; i++) {
-		if (letter[i] === letter[i].toUpperCase() &&
-			letter[i] !== letter[i].toLowerCase()) {
+		if (letter[i] === letter[i].toUpperCase() && letter[i] !== letter[i].toLowerCase()) {
 			return true;
 		} else {
 			return false;
@@ -17,5 +16,5 @@ function returnArrObj(text) {
 	}));
 }
 
-console.log(returnArrObj('Реализовать функцию Для фильтрации массива по длине слов'));
+console.log(returnArrObj('Реализовать функцию Для фильтрации маcсива по длине слов'));
 
