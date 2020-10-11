@@ -1,4 +1,4 @@
-// sort random
+// Реализовать функцию для случайной сортировки элементов массива sort random
 const randomArr = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present', 'do', 'this', '', 'web', 'soft'];
 
 const randomSort = randomArr.sort(function () {
