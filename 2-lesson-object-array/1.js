@@ -1,3 +1,4 @@
+// Реализовать функцию, которая принимает текст, и возвращает массив объектов со структурой
 function isCapitalized(letter) {
 	for (let i = 0; i < letter.length; i++) {
 		if (letter[i] === letter[i].toUpperCase() && letter[i] !== letter[i].toLowerCase()) {

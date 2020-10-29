@@ -1,3 +1,4 @@
+// Реализовать функцию для фильтрации массива по длине слов
 const FilterArr = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present', 'do', 'this', ''];
 
 function filterByLength(arr, x, y) {
