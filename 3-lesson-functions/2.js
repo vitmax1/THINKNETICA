@@ -1,28 +1,20 @@
 function cache() {
+	let cache = {};
 	return function (a, b) {
-		let cache = {};
 		let key = a ** b;
 		if (cache[key]) {
-				return {
-						value: cache[key],
-						fromCache: true
-					};
-				}		
-			cache[key] = a ** b;
+			return {
+				value: cache[key],
+				fromCache: true
+			};
+		}		
+		cache[key] = a ** b;
 		return {
 			value: cache[key],
 			fromCache: false
 		};
 	};
 }
-
-// function cache() {
-// function degree(a, b) {
-// 		let value = a ** b;
-// }
-// 	return degree;
-// }
-
 
 let calculate = cache();
 
